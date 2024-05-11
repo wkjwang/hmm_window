@@ -28,6 +28,7 @@ for k in range(n_repeat):
         ns_ext = 0
         lag_max = 2
         dat_yx, labels = synthetic_data(0.10, lag_max, ns, s=150, t=350)  #450,650
+'''
     elif a_datset == 2:
         dat_yx, labels, lag_max = dataload_taxitrips(1)  # Dropoff-->Tweet
         ns = dat_yx.shape[0]
@@ -36,7 +37,7 @@ for k in range(n_repeat):
         dat_yx, labels, lag_max = dataload_taxitrips(0)  # Pickup<--Tweet
         ns = dat_yx.shape[0]
         ns_ext = 0
-
+'''
     # prepare the dataset by variable position exchange
     nsample = ns + ns_ext
     dat_xy = dat_yx[0:ns, :].copy()
