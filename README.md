@@ -1,4 +1,4 @@
-# hmm_window
+# HMM Detection Windows for Discovering Varying Causal Relations
 This python code package is the software of the HMMDW method:
 "Detection Windows from Hidden Markov Model for Discovering Varying Causal Relations Between Time Series"
 about discovering the time-varying causal relationships between two time series.
