@@ -18,15 +18,14 @@ Time Intervals. The Seventeenth SIAM International Conference on Data Mining, Ho
 
 
 ## The structure of this package:
-data_causaltimeseries.py 	--- data generation, load a data set
-inference_methods.py 	--- methods to discover causal relationships between two time series
-causality_detect_functions.py 	--- the functions about causality test/detection
-regression_withlag.py 	--- the regression model with time lag fit data
-main_hmm_window.py	--- main function, HMM gives segmented regions, Causality test in segmented regions
+- data_causaltimeseries.py 	--- data generation, load a data set
+- inference_methods.py 	--- methods to discover causal relationships between two time series
+- causality_detect_functions.py 	--- the functions about causality test/detection
+- regression_withlag.py 	--- the regression model with time lag fit data
+- main_hmm_window.py	--- main function, HMM gives segmented regions, Causality test in segmented regions
 
 
 ## Citation
 If this package is useful in your work, please consider the citing.
 Kaijun WANG, et al. Detection Windows from Hidden Markov Model for Discovering Varying Causal Relations Between Time Series. 2024
 https://github.com/wkjwang/hmm_window
-
