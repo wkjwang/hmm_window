@@ -1,0 +1,28 @@
+
+HMMDW Version 1.0 is the software developed for "Detection Windows from
+ Hidden Markov Model for Discovering Varying Causal Relations Between Time Series".
+Copyright (C) 2024 by Kaijun WANG.
+
+This package is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation, the version 3
+of the License.
+
+Note: If this package contains the contributed files, which 
+may have their own copyright notices. If not, the GNU General Public
+License holds for them, too, but so that the author(s) of the file
+have the Copyright.
+
+This package is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
+See the GNU General Public License for more details.
+
+As stated in the GNU General Public License, it is not possible to include
+this software library in a commercial proprietary program without written
+permission from the owners of the copyright. 
+
+You should have received a copy of the GNU General Public License
+along with this package; if not, ask for a copy from:
+the Free Software Foundation, Inc.
+https://www.fsf.org/licensing/
