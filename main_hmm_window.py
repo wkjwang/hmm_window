@@ -27,17 +27,7 @@ for k in range(n_repeat):
         ns = 500
         ns_ext = 0
         lag_max = 2
-        dat_yx, labels = synthetic_data(0.10, lag_max, ns, s=150, t=350)  #450,650
-'''
-    elif a_datset == 2:
-        dat_yx, labels, lag_max = dataload_taxitrips(1)  # Dropoff-->Tweet
-        ns = dat_yx.shape[0]
-        ns_ext = 0
-    elif a_datset == 3:
-        dat_yx, labels, lag_max = dataload_taxitrips(0)  # Pickup<--Tweet
-        ns = dat_yx.shape[0]
-        ns_ext = 0
-'''
+        dat_yx, labels = synthetic_data(0.10, lag_max, ns, s=150, t=350)
 
     # prepare the dataset by variable position exchange
     nsample = ns + ns_ext
@@ -57,3 +47,13 @@ for k in range(n_repeat):
     np.savetxt('output_accuracy.txt', acy_matrix, fmt="%.4f", delimiter="\t")
 
 print('-------- Code running is over --------')
+'''
+    elif a_datset == 2:
+        dat_yx, labels, lag_max = dataload_taxitrips(1)  # Dropoff-->Tweet
+        ns = dat_yx.shape[0]
+        ns_ext = 0
+    elif a_datset == 3:
+        dat_yx, labels, lag_max = dataload_taxitrips(0)  # Pickup<--Tweet
+        ns = dat_yx.shape[0]
+        ns_ext = 0
+'''
